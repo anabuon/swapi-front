@@ -1,3 +1,47 @@
 body {
-	color: red;
+background: #F4E6FD url(nike.png) no-repeat 50% 10%;
+background-size: 30%;
+}
+
+
+form {
+display: flex;
+flex-direction: column;
+margin: auto;
+margin-top: 25%;
+width: 30%;
+padding-bottom: 200px;
+}
+
+form input {
+	margin-bottom: 35px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #C4AAD5;
+	transition: .5s;
+	font-size: 1.1rem;
+	width: 100%;
+}
+
+form input:focus{
+	outline: transparent;
+	border-bottom: 2px solid #9FE3E3;
+}
+
+form .button {
+	margin: 20px auto;
+	background-color: #9FE3E3;
+	border-radius: 5px;
+	border: none;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	height: 40px;
+	width: 100%;
+	letter-spacing: 1.2px;
+	cursor: pointer;
+}
+
+#value-text {
+	color: #C4AAD5;
+ 	font-size: 70px;
 }
